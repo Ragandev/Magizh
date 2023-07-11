@@ -5,8 +5,7 @@
 }
 
 /* font  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap");
 /* Resets */
 *,
 *::before,
@@ -19,16 +18,21 @@
   accent-color: var(--pri);
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: 'PT Sans'; */
 }
-p {
-  font-family: "Open Sans", sans-serif;
-}
+
 img,
 svg,
 video {
   max-width: 100%;
 }
+
+/* Container  */
+.cont-box{
+  width: 90% !important;
+  margin: 0 auto;
+}
+
 
 /* Headings  */
 .heading-lg,
@@ -37,6 +41,7 @@ video {
 .heading-sm {
   font-weight: 600;
   margin-bottom: 15px;
+  font-family: 'Belanosima';
 }
 .heading-xl {
   font-size: clamp(30px, 5vw, 60px);
@@ -77,7 +82,7 @@ a {
   transition: all 200ms ease-in;
 }
 .btns-pri {
-  background-color: var(--pri);
+  background-color: var(--                                                                                                          pri);
   color: var(--lightgrey);
 }
 .btns-pri:hover {
