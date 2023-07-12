@@ -28,11 +28,17 @@ video {
 }
 
 /* Container  */
-.cont-box{
+.cont-box {
   width: 90% !important;
   margin: 0 auto;
 }
 
+/* Image  */
+.img-cover {
+  width: 100% !important;
+  object-fit: cover;
+  object-position: 0 0;
+}
 
 /* Headings  */
 .heading-lg,
@@ -41,7 +47,7 @@ video {
 .heading-sm {
   font-weight: 600;
   margin-bottom: 15px;
-  font-family: 'Belanosima';
+  font-family: "Belanosima";
 }
 .heading-xl {
   font-size: clamp(30px, 5vw, 60px);
@@ -82,7 +88,7 @@ a {
   transition: all 200ms ease-in;
 }
 .btns-pri {
-  background-color: var(--                                                                                                          pri);
+  background-color: var(-- pri);
   color: var(--lightgrey);
 }
 .btns-pri:hover {
