@@ -118,3 +118,21 @@ a {
 .icon:hover {
   color: var(--sec);
 }
+
+/* Page Header  */
+.page-header{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/images/banner/red_banner.webp");
+  background-size: cover;
+  color: #fff;
+}
+.page-header-cont a{
+  color: #fff;
+  font-weight: bold;
+}
+.page-header-cont a:hover{
+  text-decoration: underline;
+  color: #fff ;
+}
