@@ -1,0 +1,46 @@
+.abt-sec {
+  padding: 80px 0;
+}
+.abt-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 1fr 50px;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  padding: 0 20px;
+}
+.abt-img img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+.abt-img img:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.img-g1 {
+  grid-area: 2 / 1 / 4 / 2;
+}
+.img-g2 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+.abt-cont .heading-sm {
+  color: var(--pri);
+}
+.abt-cont .heading-lg {
+  margin-bottom: 30px;
+}
+
+/* Counter Section  */
+.counter-sec {
+  height: 250px;
+  background-color: var(--sec);
+}
+.counter-sec .row{
+    color: #fff;
+}
+.counter-num{
+    font-size: 50px;
+    font-weight: bold;
+    border: 1px solid var(--pri);
+    width: 60%;
+    margin: 0 auto;
+}
