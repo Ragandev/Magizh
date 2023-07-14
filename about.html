@@ -202,30 +202,89 @@
 
     <!-- Counter Section  -->
     <section class="counter-sec">
-        <div class="cont-box h-100">
-            <div class="row h-100 text-center justify-content-center align-items-center">
-                <div class="col-md-4">
-                    <div class="counter">
-                        <p class="heading-sm">SKILLED TEAM <br> MEMBERS</p>
-                        <p class="counter-num">70</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="counter">
-                        <p class="heading-sm">HAPPY <br> CUSTOMERS</p>
-                        <p class="counter-num">850</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="counter">
-                        <p class="heading-sm">TOTAL SALES <br> DONE</p>
-                        <p class="counter-num">7850</p>
-                    </div>
-                </div>
+      <div class="cont-box h-100">
+        <div
+          class="row h-100 text-center justify-content-center align-items-center"
+        >
+          <div class="col-md-4">
+            <div class="counter">
+              <p class="heading-sm">
+                SKILLED TEAM <br />
+                MEMBERS
+              </p>
+              <p class="counter-num">70</p>
             </div>
+          </div>
+          <div class="col-md-4">
+            <div class="counter">
+              <p class="heading-sm">
+                HAPPY <br />
+                CUSTOMERS
+              </p>
+              <p class="counter-num">850</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="counter">
+              <p class="heading-sm">
+                TOTAL SALES <br />
+                DONE
+              </p>
+              <p class="counter-num">7850</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Counter Section  -->
+
+    <!-- Review Section  -->
+    <section class="abt-review-sec">
+      <div class="cont-box">
+        <p class="heading-lg text-center">Our Customer Says</p> <br>
+        <div class="owl-carousel review-slide-abt owl-theme">
+          <div class="item review-item">
+            <div class="abt-review">
+              <div class="review-head">
+                <img
+                  src="assets/images/banner/red_skirt_girl.webp"
+                  alt=""
+                />
+                <div>
+                  <p class="heading-sm">Hermione Granger</p>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+              </div>
+              <span class="fa fa-quote-left"></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nulla, veritatis minus aliquid incidunt, fugit ad eaque
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Review Section  -->
+
+    <!-- Brand Section  -->
+    <section class="brand-sec">
+      <div class="cont-box">
+        <div class="owl-carousel brand-slide owl-theme">
+          <div class="item">
+            <img src="assets/images/puma-logo.svg" alt="">
+          </div>
+          <div class="item">
+            <img src="assets/images/Adidas_Logo.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Brand Section  -->
 
 
     <!-- footer  -->
@@ -314,5 +373,46 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <script>
+      $(".review-slide-abt").owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+      $(".brand-slide").owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        nav: false,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 4,
+          },
+          1000: {
+            items: 6,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

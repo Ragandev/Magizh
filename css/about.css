@@ -34,13 +34,41 @@
   height: 250px;
   background-color: var(--sec);
 }
-.counter-sec .row{
-    color: #fff;
+.counter-sec .row {
+  color: #fff;
 }
-.counter-num{
-    font-size: 50px;
-    font-weight: bold;
-    border: 1px solid var(--pri);
-    width: 60%;
-    margin: 0 auto;
+.counter-num {
+  font-size: 50px;
+  font-weight: bold;
+  outline: 1px solid var(--pri);
+  width: 60%;
+  margin: 0 auto;
+  transition: all 500ms ease;
+}
+.counter-num:hover{
+  outline-offset: -10px;
+  outline-color: #fff;
+}
+
+/* Review Section  */
+.abt-review-sec{
+  padding: 80px 0 80px 0;
+  background-image:url("../assets/images/banner/wt_patter.jpg") ;
+}
+.abt-review{
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Brand Section  */
+.brand-sec{
+  height: 250px;
+  background-color: var(--pri);
+  display: flex;
+  align-items: center;
+}
+.brand-slide .item{
+  padding: 60px;
+  filter: invert();
 }
