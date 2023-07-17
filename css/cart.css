@@ -1,0 +1,30 @@
+.cart-item-sec,
+.bill-sec,
+.pay-sec{
+    padding: 80px 0;
+}
+
+.pay-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.cod,
+.razor{
+    width: 150px;
+    height: 150px;
+    background-color: var(--pri);
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.razor{
+    background-color: var(--sec);
+}
+.cod p, .razor p{
+    margin: 0;
+}

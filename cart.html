@@ -41,7 +41,7 @@
     <!-- CSS  -->
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/cart.css" />
   </head>
 
   <body>
@@ -148,3 +148,260 @@
       </nav>
     </header>
     <!-- End Header  -->
+
+    <!-- Page Header  -->
+    <section class="page-header">
+      <div class="cont-box">
+        <div class="page-header-cont">
+          <p class="heading-xl">Shopping Cart</p>
+          <p><a href="index.html" class="link-sec">Home</a> - Cart</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Page Header  -->
+
+    <!-- cart item  -->
+    <section class="cart-item-sec">
+      <div class="cont-box">
+        <div class="ci-box">
+          <header>
+            <p class="heading-sm">Cart</p>
+          </header>
+          <table class="table table-striped ci-table text-center">
+            <tr>
+              <th>Product</th>
+              <th>Amount</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>Lycra Pant</td>
+              <td>Rs 500</td>
+              <td><input type="number" /></td>
+              <td>Rs 1500</td>
+            </tr>
+            <tr>
+              <td>Jeans Pant</td>
+              <td>Rs 1000</td>
+              <td><input type="number" /></td>
+              <td>Rs 2000</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="text-end">Delivery Charge: Rs 100</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Coupon Code"
+                    aria-describedby="basic-addon2"
+                  />
+                  <a href="" class="btns btns-pri">Apply</a>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td class="text-end">Total: Rs 3600</td>
+            </tr>
+          </table>
+          <div class="d-flex justify-content-end">
+            <button class="btns btns-out step-1">Continue</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cart Items  -->
+
+    <!-- Billing  -->
+    <section class="bill-sec">
+      <div class="cont-box">
+        <header>
+          <p class="heading-sm">Billing Details</p>
+        </header>
+        <div class="bill-box">
+          <div class="row mb-3">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col">
+              <inputF
+                type="text"
+                class="form-control"
+                placeholder="Address Line 1"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Address Line 1"
+              />
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="City" />
+            </div>
+            <div class="col">
+              <select class="form-control">
+                <option value="">State</option>
+                <option value="tamilnadu">TamilNadu</option>
+                <option value="kerala">Kerala</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col">
+              <select class="form-control">
+                <option value="">Country</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+              </select>
+            </div>
+            <div class="col">
+              <input
+                type="number"
+                class="form-control"
+                placeholder="PIN Code"
+              />
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="col">
+              <input type="number" class="form-control" placeholder="Mobile" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button class="btns btns-out step-1">Continue</button>
+        </div>
+      </div>
+    </section>
+    <!-- End Billing -->
+
+    <!-- PAyment Method  -->
+    <section class="pay-sec">
+      <div class="cont-box">
+        <div class="pay-box">
+          <div class="cod">
+            <p>COD</p>
+          </div>
+          <div class="razor">
+            <p>RAZORPAY</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End payment Method  -->
+
+    <!-- footer  -->
+    <section class="footer-sec">
+      <div class="cont-box">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="f-self-box">
+              <a class="heading-md link-pri" href="">Magizh Boutique</a>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                vitae odio iste harum consectetur quod, itaque praesentium
+                nostrum eaque dicta?
+              </p>
+              <div class="f-social-box">
+                <span class="icon fa-brands fa-facebook"></span>
+                <span class="icon fa-brands fa-instagram m-lg-1"></span>
+                <span class="icon fa-brands fa-twitter m-lg-1"></span>
+                <span class="icon fa-brands fa-linkedin m-lg-1"></span>
+                <span class="icon fa-brands fa-youtube m-lg-1"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="f-ql-box">
+              <p class="heading-md link-list">Quick Links</p>
+              <li>
+                <a class="link-sec" href="">Terms & Conditions</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Refund Policy</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">About Us</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Contact Us</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Privacy Policy</a>
+              </li>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="f-ai-box">
+              <p class="heading-md link-list">Account Info</p>
+              <li>
+                <a class="link-sec" href="">My Account</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Shopping Cart</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Login</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Register</a>
+              </li>
+              <li>
+                <a class="link-sec" href="">Complaint</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Footer  -->
+
+    <!-- Jquery  -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/cart.js"></script>
+  </body>
+</html>

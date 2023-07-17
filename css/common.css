@@ -17,7 +17,7 @@
   padding: 0;
   accent-color: var(--pri);
 }
-form :is(input, textarea):focus{
+:is(input, textarea, select):focus{
   box-shadow: none !important;
   outline: 1px solid var(--pri) !important;
   border: none;
