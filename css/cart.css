@@ -3,6 +3,10 @@
 .pay-sec{
     padding: 80px 0;
 }
+.pay-sec,
+.bill-sec{
+    /* display: none; */
+}
 
 .pay-box{
     display: flex;
@@ -12,15 +16,17 @@
 }
 .cod,
 .razor{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 250px;
     background-color: var(--pri);
+    background-image: url('../assets/images/cod.webp');
+    background-size: auto 250px;
+    background-repeat: no-repeat;
     color: #fff;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
 }
 .razor{
     background-color: var(--sec);
