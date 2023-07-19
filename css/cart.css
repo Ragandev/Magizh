@@ -5,7 +5,7 @@
 }
 .pay-sec,
 .bill-sec{
-    /* display: none; */
+    display: none;
 }
 
 .pay-box{
