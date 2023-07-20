@@ -28,6 +28,7 @@
   grid-area: 1 / 1;
   height: 650px;
   object-fit: cover;
+  object-position: 80% 0;
 }
 .banner-item .banner-item-cont {
   grid-area: 1 / 1;
@@ -35,6 +36,12 @@
   margin-left: 50px;
   align-self: center;
   position: relative;
+}
+@media (width < 780px) {
+  .banner-item .banner-item-cont p{
+    color: #fff;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0 ,0 ,0.3));
+  } 
 }
 
 /* Category Section 1  */

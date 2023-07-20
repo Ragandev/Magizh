@@ -1,8 +1,6 @@
 .filter-sec {
   padding: 80px 0;
 }
-.filter-box {
-}
 .brand-box,
 .cat-box {
   max-height: 250px;
@@ -19,11 +17,24 @@
 .heading-sm {
   color: var(--pri);
 }
+.pop-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro-col{
+  display: flex;
+  justify-content: center;
+}
 .pro-box {
   width: 240px;
   margin-bottom: 40px;
 }
-
+@media (width < 993px) {
+  .pro-box {
+    width: 200px;
+  }
+}
 .brand-box::-webkit-scrollbar,
 .cat-box::-webkit-scrollbar {
   width: 2px;
