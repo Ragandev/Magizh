@@ -132,6 +132,7 @@ a {
   align-items: center;
   background-image: url("../assets/images/banner/red_banner.webp");
   background-size: cover;
+  background-position: 80% 0;
   color: #fff;
 }
 .page-header-cont a{
