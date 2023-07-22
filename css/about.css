@@ -50,10 +50,17 @@
   outline-color: #fff;
 }
 
+@media (width<768px){
+  .counter-sec{
+    height:520px;
+  }
+}
+
 /* Review Section  */
 .abt-review-sec{
   padding: 80px 0 80px 0;
   background-image:url("../assets/images/banner/wt_patter.jpg") ;
+  background-position: 80% 0 !important;
 }
 .abt-review{
   padding: 20px;

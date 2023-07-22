@@ -4,7 +4,7 @@
 .c-m-details {
   background-color: var(--pri);
   color: #fff;
-  padding: 45px;
+  padding: 35px;
   border-radius: 10px;
 }
 .c-m-details a {
@@ -14,7 +14,7 @@
   margin: 20px 0;
 }
 .cd-inn span:not(.fa-brands) {
-  font-size: 50px;
+  font-size: 40px;
 }
 .cd-form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -23,6 +23,16 @@
 }
 .c-m-header p:not(:first-child) {
   width: 60%;
+}
+@media (width<768px){
+  .c-m-header p:not(:first-child) {
+    width: 100%;
+  }
+}
+@media (width<992px){
+  .cd-inn span:not(.fa-brands) {
+    font-size: 30px;
+  }
 }
 .map-sec{
     margin-bottom: -5px;

@@ -8,6 +8,8 @@
 .main-img img{
     height: 600px;
     margin-bottom: 20px;
+    object-fit: cover;
+    object-position: 50% 0;
 }
 .price-box .price{
     font-size: 35px;
