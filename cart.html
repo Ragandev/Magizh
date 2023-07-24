@@ -167,11 +167,11 @@
           <header>
             <p class="heading-sm">Cart</p>
           </header>
-          <table class="table table-striped ci-table text-center">
+          <table class="table table-striped ci-table text-center mb-5">
             <tr>
-              <th>Product</th>
-              <th>Amount</th>
-              <th>Quantity</th>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Qty</th>
               <th>Total</th>
             </tr>
             <tr>
@@ -185,36 +185,26 @@
               <td>Rs 1000</td>
               <td><input type="number" /></td>
               <td>Rs 2000</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td class="text-end">Delivery Charge: Rs 100</td>
-            </tr>
-            <tr>
-              <td>
-                <div class="input-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Coupon Code"
-                    aria-describedby="basic-addon2"
-                  />
-                  <a href="" class="btns btns-pri">Apply</a>
-                </div>
-              </td>
-              <td></td>
-              <td></td>
-              <td class="text-end">Total: Rs 3600</td>
-            </tr>
+            </tr>            
           </table>
+          <p class="text-end heading-sm">Delivery Charge: <span class="icon">Rs 100</span> </p>
+          <p class="text-end heading-sm mb-5">Total: <span class="icon">Rs 3600</span></p>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Coupon Code"
+              aria-describedby="basic-addon2"
+            />
+            <a href="" class="btns btns-pri">Apply</a>
+          </div>
           <div class="d-flex justify-content-end">
             <button class="btns btns-out step-2">Continue</button>
           </div>
         </div>
       </div>
     </section>
+    
     <!-- End Cart Items  -->
 
     <!-- Billing  -->
