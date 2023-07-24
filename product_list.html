@@ -153,44 +153,54 @@
     <section class="filter-sec position-relative">
       <div class="cont-box">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="filter-box position-sticky top-0">
-              <div class="cat-box mb-5">
-                <p class="heading-sm">Categories</p>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-                <a class="link-sec" href="">Categories list</a>
-              </div>
-              <div class="brand-box mb-5">
-                <p class="heading-sm">Brands</p>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-                <a class="link-sec" href="">Adidas</a>
-              </div>
-              <div class="price-box mb-5">
-                <p class="heading-sm">Price Range</p>
-                <input type="range" min="0" max="100000" onchange="price()"/>
-                <p class="value">hii</p>
-              </div>
-              <div class="sort-box mb-5">
-                <p class="heading-sm">Sort</p>
-                <select name="" id="" class="form-control">
-                  <option value="">Choose</option>
-                  <option value="">Price Low to high</option>
-                  <option value="">Price high to Low</option>
-                </select>
+              <a class="hide-btn btns btns-pri d-block text-center mb-5 d-md-none"> <span class="fa fa-filter"></span> &nbsp; FILTER</a>
+              <div class="row filter-inn d-none d-md-block">
+                <div class="col-md-12">
+                  <div class="cat-box mb-5">
+                    <p class="heading-sm">Categories</p>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                    <a class="link-sec" href="">Categories list</a>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="brand-box mb-5">
+                    <p class="heading-sm">Brands</p>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                    <a class="link-sec" href="">Adidas</a>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="price-box mb-5">
+                    <p class="heading-sm">Price Range</p>
+                    <input type="range" min="0" max="100000"/>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="sort-box mb-5">
+                    <p class="heading-sm">Sort</p>
+                    <select name="" id="" class="form-control">
+                      <option value="">Choose</option>
+                      <option value="">Price Low to high</option>
+                      <option value="">Price high to Low</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-10">
+          <div class="col-md-9">
             <div class="pro-list-box">
               <div class="row">
                 <div class="col-sm-6 col-lg-3 pro-col">.
@@ -553,5 +563,14 @@
     ></script>
 
     <script src="js/product_list.js"></script>
+
+    <script>
+      
+      $(`.hide-btn`).click(function(){
+        $(`.filter-inn`).toggleClass(`d-none`);
+      })
+
+    </script>
+
   </body>
 </html>
