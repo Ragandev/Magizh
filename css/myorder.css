@@ -4,3 +4,8 @@
 .my-order-sec td{
     padding: 20px 0;
 }
+@media (width<=576px){
+    .tabd{
+        display:none;
+    }
+}
