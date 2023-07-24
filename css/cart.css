@@ -1,39 +1,59 @@
 .cart-item-sec,
 .bill-sec,
-.pay-sec{
-    padding: 80px 0;
+.pay-sec {
+  padding: 80px 0;
 }
 .pay-sec,
-.bill-sec{
-    display: none;
+.bill-sec {
+  display: none;
 }
-
-.pay-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.pay-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 .cod,
-.razor{
-    width: 50%;
-    height: 250px;
-    background-color: var(--pri);
-    background-image: url('../assets/images/cod.webp');
-    background-size: auto 250px;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.razor {
+  width: 100%;
+  height: 250px;
+  background-color: var(--sec);
+  background-image: url("../assets/images/cod.webp");
+  background-size: auto 250px;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.razor{
-    background-color: var(--sec);
+.razor {
+  background-color: var(--pri);
+  background-image: url("../assets/images/PayNow.png");
 }
-.cod p, .razor p{
-    margin: 0;
+.cod p,
+.razor p {
+  margin: 0;
 }
-.ci-table input[type]{
-    width: 50px;
+.ci-table input[type] {
+  width: 50px;
+}
+@media (width<1300px) {
+    .cod, .razor{
+        justify-content: end;
+    }
+    .cod p, .razor p{
+        margin-right: 10px;
+    }
+}
+@media (width<576px){
+    .cod, .razor{
+        background-size: auto 150px; 
+        background-position: 50% 50%;
+        align-items: end;
+        justify-content: center;
+    }
+    .pay-box{
+        gap:20px;
+    }
 }
